@@ -18,7 +18,8 @@ Show a table of the calculated values from your R and python programs.
 
 I included 3 significant figures because that is what R provides, and though 
 python outputs more significant figures, when you round you end up with the same 
-values. I did not include 2 columns for R vs python since the values are the same.
+values. I did not include 2 columns for R vs python since the values are the same
+and that would just be unnecessarily repetitive.
 
 
 | Region     | Mean Percent Difference | Standard Deviation  | Coefficient of Variation |
@@ -32,12 +33,30 @@ values. I did not include 2 columns for R vs python since the values are the sam
 ## Explaination of CV 
 Write a short paragraph that explains the coefficient of variation
 
-insert here 
+Coefficient of variation is calculated as the standard deviation divided 
+by the mean. This value is a measure of how dispersed data points are 
+surrounding the mean (the ratio of SD to mean). The higher a CV value, the 
+more dispersion there is around the mean and the data is more scattered, lower 
+CV values are "better" as they mean that the data is a good fit around the mean.
 
 ## Compare/Contrast average and variation in percent differences 
 Compare and contrast the average and variation of the percent differences 
 in the mortality rates from 2018 to 2021 in the four census regions.
 
+The south had the lowest percentage decrease in mortality rate with 24.9%, 
+and the northeast had the largest percentage decrease of 38.5% from 2018 to 
+2021. Generalizing quite a bit, I would assume that people in the northeast 
+took wearing masks and social distancing when feeling ill more seriously than 
+people in the south did post COVID. All 4 regions have a mean percent decrease 
+of over 20% which is quite significant and shows that we all did learn from the 
+experience of COVID to try and stop the spread of other diseases like the flu 
+when one begins to feel sick regardless of region. The Midwest and the west had 
+very similar mean differences of about 35%, however the West has the largest CV 
+value meaning its data is not all close to the mean but there is more variation
+occurring. The Midwest in contrast has the lowest CV value and thus the least 
+amount of dispersion in data points around the mean. It is important to not only 
+consider the mean percent differences when making comparisons between regions 
+but also to consider the variation through the SD and the CV.
 
 
 ## Mapping Table 
@@ -64,7 +83,18 @@ data.frame in R.
 Write a short review of your favorite topic and/or material 
 from the course (what was it and why?). 
 
-
+My favorite thing I learned in this course would have to be how to use 
+github and version control when working on projects. I think it is a very important 
+and powerful tool to be able to showcase my work and to ensure that important 
+projects that I have done are in a safe location that cannot be lost if I (knock 
+on wood) were to have any more troubles with my computer or my local server. I 
+plan to utilize my github page to display bioinformatics systems and projects that 
+I have worked hard on and it can help me professionally in the same manner that 
+my linked in site or similar has. I also enjoyed learning about the topic of merging
+data sets to make answering complex questions more manageable. If you do not have 
+all the data you need in one place it is much harder to work with or answer specific 
+questions you may have, so merging data sets in both R and python will be tools 
+that I am sure I will use in the future. 
 
 
 
