@@ -15,19 +15,16 @@ The goal of both scripts:
 
 ## Calculated Values 
 Show a table of the calculated values from your R and python programs.
-
-I included 3 significant figures because that is what R provides, and though 
-python outputs more significant figures, when you round you end up with the same 
-values. I did not include 2 columns for R vs python since the values are the same
-and that would just be unnecessarily repetitive.
+The values are the same, rounding is different based on the IDE you are 
+choosing to use this is Rstudio and Spyder.
 
 
-| Region     | Mean Percent Difference | Standard Deviation  | Coefficient of Variation |
-|------------|-------------------------|---------------------|--------------------------| 
-| Midwest    | 35.7                    | 8.92                | 0.250                    |
-| Northeast  | 38.5                    | 12.4                | 0.323                    | 
-| South      | 24.9                    | 7.14                | 0.287                    |
-| West       | 34.9                    | 12.9                | 0.371                    | 
+| Region     | Mean (R)   | Mean (py) | SD (R)    | SD (py)    | CV (R)   | CV (py)     |
+|------------|------------|-----------|-----------|------------|----------|-------------| 
+| Midwest    | 35.7       | 35.722550 | 8.92      | 8.918304   | 0.250    | 0.249655    |
+| Northeast  | 38.5       | 38.527446 | 12.4      | 12.432945  | 0.323    | 0.322704    | 
+| South      | 24.9       | 24.863418 | 7.14      | 7.140688   | 0.287    | 0.287197    |
+| West       | 34.9       | 34.877063 | 12.9      | 12.928896  | 0.371    | 0.370699    | 
 
 
 ## Explaination of CV 
